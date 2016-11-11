@@ -19,10 +19,10 @@ Please begin by forking this repository (or simply clone it if you do not want t
 If you don't wish to use GitHub for submission, add the project files to a suitable directory on Google Drive and share, or zip the project and send as an email attachment, to the following email
 addresses:
 
-conor.wogan@sportdec.com
-iker@sportdec.com
-daveb@sportdec.com
-davec@sportdec.com
+conor.wogan@sportdec.com  
+iker@sportdec.com   
+daveb@sportdec.com  
+davec@sportdec.com  
 
 When submitting, ideally replace this README.md with whatever documentation you choose to accompany your work.
 
