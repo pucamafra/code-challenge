@@ -11,10 +11,10 @@ Functional requirements go here.
 ## Submission
 Please begin by forking this repository (or simply clone it if you do not want to submit using GitHub). To submit, add the following users as collaborators:
 
-@onlydave
-@cusackd
-@ikerSportdec
-@Wogiebear
+@onlydave  
+@cusackd  
+@ikerSportdec  
+@Wogiebear  
 
 If you don't wish to use GitHub for submission, add the project files to a suitable directory on Google Drive and share, or zip the project and send as an email attachment, to the following email
 addresses:
