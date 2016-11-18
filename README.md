@@ -20,10 +20,10 @@ This assignment asks you to deliver a mobile web app that displays an overview o
 In this repo you'll find the JSON data that describes what happened in the match and when it happened. You'll also find image assets you might need to render an interesting user experience. Other than that, we are being deliberately non-specific on visual layout - that's up to you. That said, what we are looking for is a solution that clearly describes timeline of events for the match to the user - the chronology of events should tell the user all she needs to understand what happened in the game and when.
 
 Technically, you're solution should do the following:
-● Demonstrate the use services or controllers that interact with the json files as the data source for the interface
-● Demonstrate the implementation of styles in a way that is easy to manage, change and reuse into the future.
-● Demonstrate the sorting and ordering of match events from the JSON source
-● Demonstrate good file and code structure
+* Demonstrate the use services or controllers that interact with the json files as the data source for the interface
+* Demonstrate the implementation of styles in a way that is easy to manage, change and reuse into the future.
+* Demonstrate the sorting and ordering of match events from the JSON source
+* Demonstrate good file and code structure
 
 ## Submission
 Please begin by forking this repository (or simply clone it if you do not want to submit using GitHub). To submit, add the following users as collaborators:
