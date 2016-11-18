@@ -21,11 +21,13 @@ In this repo you'll find the JSON data that describes what happened in the match
 
 Other than that, we are being deliberately non-specific on visual layout - that's up to you. We encourage you to use your imagination to come up with a solution. We love surprises!
 
-Technically, you're solution should do the following:
-* Demonstrate the use services or controllers that interact with the JSON file as the data source for the interface
+Technically, your solution should do the following:
+* Demonstrate the use services or controllers that interact with the JSON file as the data source for the interface  
 * Demonstrate the implementation of styles in a way that is easy to manage, change and reuse into the future.
 * Demonstrate the sorting and ordering of match events from the JSON source
 * Demonstrate good file and code structure
+
+You will get more attention if your code is testable and you provide unit tests.
 
 And if you need to fill any gaps in these vague requirements, then go ahead and make the assumptions you need. Just make sure to describe your assumptions in your solution.
 
