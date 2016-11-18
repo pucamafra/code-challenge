@@ -17,13 +17,17 @@ Welcome to the Sportdec coding challenge. The challenge is intended for candidat
 
 ##The Challenge
 This assignment asks you to deliver a mobile web app that displays an overview of a real football match.
-In this repo you'll find the JSON data that describes what happened in the match and when it happened. You'll also find image assets you might need to render an interesting user experience. Other than that, we are being deliberately non-specific on visual layout - that's up to you. That said, what we are looking for is a solution that clearly describes timeline of events for the match to the user - the chronology of events should tell the user all she needs to understand what happened in the game and when.
+In this repo you'll find the JSON data that describes what happened in the match and when it happened. You'll also find image assets you might need to render an interesting user experience. What we are looking for is a solution that clearly describes to the user the timeline of events in the match - the chronology of events should tell the user all she needs to understand what happened in the game and when. 
+
+Other than that, we are being deliberately non-specific on visual layout - that's up to you. We encourage you to use your imagination to come up with a solution. We love surprises!
 
 Technically, you're solution should do the following:
 * Demonstrate the use services or controllers that interact with the JSON file as the data source for the interface
 * Demonstrate the implementation of styles in a way that is easy to manage, change and reuse into the future.
 * Demonstrate the sorting and ordering of match events from the JSON source
 * Demonstrate good file and code structure
+
+And if you need to fill any gaps in these vague requirements, then go ahead and make the assumptions you need. Just make sure to describe your assumptions in your solution.
 
 ## Submission
 Please begin by forking this repository (or simply clone it if you do not want to submit using GitHub). To submit, add the following users as collaborators:
