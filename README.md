@@ -47,7 +47,10 @@ iker@sportdec.com
 daveb@sportdec.com  
 davec@sportdec.com  
 
-When submitting, ideally replace this README.md with whatever documentation you choose to accompany your work.
+## Please include
+
+1. When submitting, ideally replace this README.md with whatever documentation you think is relevant for us to understand your work, including assumptions or decisions you made in your approach.
+2. Please also attach a screenshot of the UI layout of your app.
 
 ## Prescribed languages and tools
 You are free to choose the technologies you wish to use to implement this challenge. However, given the nature of the role, the following are preferable.
