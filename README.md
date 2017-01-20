@@ -53,11 +53,12 @@ davec@sportdec.com
 2. Please also attach a screenshot of the UI layout of your app.
 
 ## Prescribed languages and tools
-You are free to choose the technologies you wish to use to implement this challenge. However, given the nature of the role, the following are preferable.
+We are not a dogmatic organisation - you are free to choose the technologies you wish to use to implement this challenge. However, given the nature of the role, the following are preferable to us:
 
- * JavaScript, in particular AngularJS or similar client side framework.
- * SASS/LESS or some CSS preprocessor
- * A build system such as gulp, grunt or webpack, see below.
+ * First preference would be to see a solution written in: ReactNative
+ * After that: ReactJS, AngularJS or similar client side framework.
+ * Demonstration of SASS/LESS or some CSS preprocessor
+ * Demonstration of a build system such as gulp, grunt or webpack, see below.
 
 ## Non-functional requirements 
 Ideally we would like the project to have its dependencies resolved with `npm`, `bower`, `yarn` or some combination of the above, and for us to be able to launch it with something along the lines of `npm start` (or another single command).
