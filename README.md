@@ -1,7 +1,7 @@
-#Sportdec code challenge
+#Sportdec front-end code challenge
 
 ##Introduction
-Welcome to the Sportdec coding challenge. The challenge is intended for candidates applying for development roles in our company. It's not a super-pressure time challenge - you can complete it at home, in your own time. Ideally you will complete this in less than 1 week - the sooner you get your submission to us, the sooner we can progess your application.
+Welcome to the Sportdec coding challenge for engineers looking to work on the frontend of the Sportdec stack. The challenge is intended for candidates applying for mobile client development roles in our company. It's not a super-pressure time challenge - you can complete it at home, in your own time. Ideally you will complete this in less than 1 week - the sooner you get your submission to us, the sooner we can progess your application.
 
     A little bit about us
     Sportdec is a sports companion app for sports fans. What's a sports companion app? 
