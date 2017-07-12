@@ -1,6 +1,6 @@
-#Sportdec front-end code challenge
+# Sportdec front-end code challenge
 
-##Introduction
+## Introduction
 Welcome to the Sportdec coding challenge for engineers looking to work on the frontend of the Sportdec stack. The challenge is intended for candidates applying for mobile client development roles in our company. It's not a super-pressure time challenge - you can complete it at home, in your own time. Ideally you will complete this in less than 1 week - the sooner you get your submission to us, the sooner we can progess your application.
 
     A little bit about us
@@ -15,7 +15,7 @@ Welcome to the Sportdec coding challenge for engineers looking to work on the fr
      * And much more...
 
 
-##The Challenge
+## The Challenge
 This assignment asks you to deliver an app that displays an overview of a real football match.
 In this repo you'll find the JSON data that describes what happened in the match and when it happened. You'll also find image assets you might need to render an interesting user experience. What we are looking for is a solution that clearly describes to the user the timeline of events in the match - the chronology of events should tell the user all she needs to understand what happened in the game and when. 
 
