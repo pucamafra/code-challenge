@@ -18,21 +18,17 @@ To build the app, follow these simple steps:
 
 ### iOS
 
-<img width="100" src="./screenshots/sportdec_ios.png" />
-
-<img width="100" src="./screenshots/sportdec_ios2.png" />
+<img width="400" src="./screenshots/sportdec_ios.png" /> <img width="400" src="./screenshots/sportdec_ios2.png" />
 
 ### Android
 
-<img width="100" src="./screenshots/sportdec_android.png" />
-
-<img width="100" src="./screenshots/sportdec_android2.png" />
+<img width="400" src="./screenshots/sportdec_android.jpeg" /> <img width="400" src="./screenshots/sportdec_android2.jpeg" />
 
 ## Assumptions
 
-* It is assumed that the data should be received via an API call. Because of this I have created a service to get this data. As we do not have this service available for this test I am returning the data from the .json provided with some delay to simulate a network call, thus when the service is available we just need to change the method implementation.
+* It is assumed that the data should be received via an API call. Because of this I have created a service to get this data. As we do not have this service available for this test I am returning the data from the .json provided with some delay to simulate a network call, thus when the service is available we just need to change the method implementation. For the record, both service and .json are in the same folder `/app/api`.
 
-* `assets/football-event-icons-sprite/selection.json` could not be used in the app because some svg were ruined and the file `assets/football-events-sprite.png` could not be used due of the quality of the image, therefore I decided to pick new icons in the internet very similar to the icons provided. For the record, both service and .json are in the same folder `/app/api`.
+* `assets/football-event-icons-sprite/selection.json` could not be used in the app because some svg were ruined and the file `assets/football-events-sprite.png` could not be used due of the quality of the image, therefore I decided to pick new icons in the internet very similar to the icons provided.
 
 * Team shields have not been provided, so they have been added manually in the .json
 
