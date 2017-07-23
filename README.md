@@ -1,64 +1,43 @@
-# Sportdec front-end code challenge
+# Sportdec
 
-## Introduction
-Welcome to the Sportdec coding challenge for engineers looking to work on the frontend of the Sportdec stack. The challenge is intended for candidates applying for mobile client development roles in our company. It's not a super-pressure time challenge - you can complete it at home, in your own time. Ideally you will complete this in less than 1 week - the sooner you get your submission to us, the sooner we can progess your application.
+The app provides live scores of a soccer match. The events of the match are displayed using a series of icons which represent each event, along with the timestamps when they happened.
 
-    A little bit about us
-    Sportdec is a sports companion app for sports fans. What's a sports companion app? 
-    Well, we see it as providing fans with features and fun to compliment their 
-    following of live games. That includes:
-     * Realtime updates and notificaations on match scores and events :soccer:
-     * Match, team and players stats
-     * Orginal sport content of a fan's favourite teams
-     * Pre- and live-match money wagering
-     * Sports games
-     * And much more...
+## Installation and Usage
 
+To build the app, follow these simple steps:
 
-## The Challenge
-This assignment asks you to deliver an app that displays an overview of a real football match.
-In this repo you'll find the JSON data that describes what happened in the match and when it happened. You'll also find image assets you might need to render an interesting user experience. What we are looking for is a solution that clearly describes to the user the timeline of events in the match - the chronology of events should tell the user all she needs to understand what happened in the game and when. 
+* Run cd /path/to/sportdec
+* Run npm install inside the repository
+* Run npm start
+* Connect your device, or start an emulator
+* Open another terminal instance, and run:
+* react-native run-ios for starting the iOS version
+* react-native run-android for starting the Android version
 
-Other than that, we are being deliberately non-specific on visual layout - that's up to you. We encourage you to use your imagination to come up with a solution. We love surprises!
+## Screenshots
 
-Technically, your solution should do the following:
-* Demonstrate the use services or controllers that interact with the JSON file as the data source for the interface  
-* Demonstrate the implementation of styles in a way that is easy to manage, change and reuse into the future.
-* Demonstrate the sorting and ordering of match events from the JSON source
-* Demonstrate good file and code structure
+### iOS
 
-You will get more attention if your code is testable and you provide unit tests.
+<img width="100" src="./screenshots/sportdec_ios.png" />
 
-And if you need to fill any gaps in these vague requirements, then go ahead and make the assumptions you need. Just make sure to describe your assumptions in your solution.
+<img width="100" src="./screenshots/sportdec_ios2.png" />
 
-## Submission
-Please begin by forking this repository (or simply clone it if you do not want to submit using GitHub). To submit, add the following users as collaborators:
+### Android
 
-@onlydave  
-@cusackd  
-@dereklawless 
-@Wogiebear  
+<img width="100" src="./screenshots/sportdec_android.png" />
 
-If you don't wish to use GitHub for submission, add the project files to a suitable directory on Google Drive and share, or zip the project and send as an email attachment, to the following email
-addresses:
+<img width="100" src="./screenshots/sportdec_android2.png" />
 
-daveb@sportdec.com  
-davec@sportdec.com  
-derek@sportdec.com   
-conor.wogan@sportdec.com  
+## Assumptions
 
-## Please include
+* It is assumed that the data should be received via an API call. Because of this I have created a service to get this data. As we do not have this service available for this test I am returning the data from the .json provided with some delay to simulate a network call, thus when the service is available we just need to change the method implementation.
 
-1. When submitting, ideally replace this README.md with whatever documentation you think is relevant for us to understand your work, including assumptions or decisions you made in your approach.
-2. Please also attach a screenshot of the UI layout of your app - this is very useful to compare if we have problems running the app.
+* `assets/football-event-icons-sprite/selection.json` could not be used in the app because some svg were ruined and the file `assets/football-events-sprite.png` could not be used due of the quality of the image, therefore I decided to pick new icons in the internet very similar to the icons provided. For the record, both service and .json are in the same folder `/app/api`.
 
-## Prescribed languages and tools
-We are not a dogmatic organisation - you are free to choose the technologies you wish to use to implement this challenge. However, given the nature of the role, the following are preferable to us:
+* Team shields have not been provided, so they have been added manually in the .json
 
- * First preference would be to see a solution written in: ReactNative
- * After that: ReactJS, AngularJS or similar client side framework.
- * Demonstration of SASS/LESS or some CSS preprocessor
- * Demonstration of a build system such as gulp, grunt or webpack, see below.
+* No sample event for second yellow card or red card have been provide, therefore I assumed that event will have category as as `booking`, and value as `Red` and `SecondYellow` respectively.
 
-## Non-functional requirements 
-Ideally we would like the project to have its dependencies resolved with `npm`, `bower`, `yarn` or some combination of the above, and for us to be able to launch it with something along the lines of `npm start` (or another single command).
+* No sample event for own goal has been provided, therefore I assumed that event will have category as `goal`, and value as `OwnGoal`.
+
+* Substitution on/off have separate events, but only one icon provided. As I have needed to find new icons I took advantage and picked another one. Therefore substitution are being represented using two icons.
