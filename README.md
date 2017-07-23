@@ -1,6 +1,6 @@
 # Sportdec
 
-The app provides live scores of a soccer match. The events of the match are displayed using a series of icons which represent each event, along with the timestamps when they happened.
+The app whose has been created using React Native provides live scores of a soccer match. The events of the match are displayed using a series of icons which represent each event, along with the timestamps when they happened.
 
 ## Installation and Usage
 
